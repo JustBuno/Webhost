@@ -1,0 +1,44 @@
+
+
+img {
+    width: 160px;
+    height: auto;
+    margin: 5px;
+    color: rgb(240, 240, 240);
+    border-radius: 5%;
+  }
+
+.clickable:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+body {
+    font-size: larger;
+    font-family: Trebuchet MS;
+    background-color: #1F1F1F;
+    text-align: center;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  
+  text-align: center;
+  margin: 30px;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+h2{
+  width: 100%;
+  text-align: left;
+  margin-left: 30px;
+}
